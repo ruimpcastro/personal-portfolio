@@ -96,6 +96,12 @@ a:hover {
     grid-gap: 50px;
 }
 
+.project-tile {
+    box-shadow: 1px 1px 1px rgba(0,0,0, 0.5);
+}
+
+
+
 #contacts {
     display: flex;
     flex-direction: column;
