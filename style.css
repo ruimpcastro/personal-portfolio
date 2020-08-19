@@ -80,6 +80,22 @@ a:hover {
     font-style: italic;
 }
 
+#projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#project-grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto;
+    align-self: center;
+    width: 100%;
+    grid-gap: 50px;
+}
+
 #contacts {
     display: flex;
     flex-direction: column;
