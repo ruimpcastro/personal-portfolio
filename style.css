@@ -50,3 +50,31 @@ a:hover {
     justify-content: center;
 }
 
+#welcome {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+#welcome-header {
+    margin-top: 80px;
+}
+
+#myPicture {
+    margin-top: 20px;
+    border-radius: 50%;
+    max-width: 250px;
+}
+
+#welcome-name {
+    margin-top: 50px;
+}
+
+#welcome-designation {
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
