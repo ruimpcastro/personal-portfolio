@@ -57,6 +57,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     font-size: x-large;
+    padding-bottom: 80px;
 }
 
 #welcome-header {
@@ -77,4 +78,20 @@ a:hover {
     margin-top: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+#contacts > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.link-to-profile > img {
+    max-width: 100px;
+    border-style: double;
 }
