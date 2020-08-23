@@ -34,7 +34,7 @@ a:hover {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: hsl(15, 35%, 50%);
+    background-color: hsl(159, 77%, 30%);
     font-weight: bold;
 }
 
@@ -88,7 +88,7 @@ a:hover {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    background-color: hsl(175, 65%, 30%);
+    background-color: hsl(146, 60%, 74%)
 }
 
 #project-grid {
