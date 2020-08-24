@@ -60,7 +60,7 @@ a:hover {
     align-items: center;
     font-size: x-large;
     padding-bottom: 80px;
-    background: linear-gradient( 360deg, hsl(0, 10%, 25%) 0%, hsl(40, 50%, 5%) 100%);
+    background: linear-gradient( 180deg, hsl(0, 10%, 25%) 0%, hsl(40, 50%, 5%) 100%);
 }
 
 #welcome-header {
@@ -78,6 +78,7 @@ a:hover {
 }
 
 #welcome-designation {
+    color: hsl(159, 77%, 30%);
     margin-top: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
@@ -91,29 +92,44 @@ a:hover {
     background-color: hsl(146, 60%, 74%)
 }
 
+#project-intro {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 4px rgba(0,0,0, 0.7);
+}
+
 #project-grid {
     display: grid;
     grid-template-columns: repeat(3, calc(90% / 3));
-    grid-template-rows: repeat(2, 380px);
+    grid-template-rows: repeat(2, 420px);
     align-self: center;
-    width: 90%;
-    grid-gap: 60px;
+    width: 100%;
+    grid-gap: 30px;
     padding: 20px 5px 50px 0;
+    justify-content: center;
 }
 
 .project-tile {
-    box-shadow: 1px 1px 1px rgba(0,0,0, 0.5);
-    padding: 20px 0;
+    box-shadow: 1px 1px 10px rgba(0,0,0, 0.7);
+    background-color: hsl(159, 77%, 30%);
+    border-radius: 3px;
 }
 .no-content{
     padding: 20px 0;
 }
 
-.project-tile > a > img {
+.project-tile > img {
     width: 100%;
-    height: 95%;
+    height: calc(100% - 50px);
     object-fit: cover;
-    overflow: hidden;
+}
+
+.project-tile > p {
+    font-size: 1.2rem;
+    padding: 10px; 
 }
 
 #contacts {
