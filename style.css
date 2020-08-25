@@ -73,7 +73,6 @@ a:hover {
     flex-direction: row;
     width: 100%;
     justify-content: end;
-    padding-right: 90px;
 }
 
 
@@ -84,7 +83,7 @@ a:hover {
     justify-content: center;
 }
 
-@media (max-wdith: 1000px) {
+@media (max-width: 1000px) {
     #navbar-list {
         justify-content: center;
     }
@@ -228,7 +227,7 @@ a:hover {
     align-items: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     #contacts-grid {
         display: flex;
         width: 100%;
