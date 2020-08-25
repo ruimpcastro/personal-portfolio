@@ -137,7 +137,7 @@ a:hover {
 #contacts {
     display: flex;
     flex-direction: column;
-    background-color: hsl(241, 13%, 19%);
+    background-color: hsl(0, 10%, 25%);
     align-content: center;
     text-align: center;
     justify-content: center;
@@ -198,7 +198,7 @@ a:hover {
 footer {
     display: flex;
     flex-direction: column;
-    background-color: hsl(241, 13%, 19%);
+    background-color: hsl(0, 10%, 25%);
     border-top: hsl(159, 77%, 30%) solid 3px;
 }
 
