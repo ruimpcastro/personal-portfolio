@@ -71,8 +71,8 @@ a:hover {
 #navbar-list {
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: flex-end;
+    width: 100%;
 }
 
 #navbar-list > li {
